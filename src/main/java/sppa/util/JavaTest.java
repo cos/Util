@@ -1,4 +1,4 @@
-package util;
+package sppa.util;
 
 import org.junit.Rule;
 import org.junit.rules.TestName;
