@@ -1,7 +1,6 @@
-package util
+package sppa.util
 
 import scala.collection._
-import util.debug
 
 object log {
 

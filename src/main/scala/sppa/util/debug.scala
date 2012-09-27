@@ -1,4 +1,4 @@
-package util
+package sppa.util
 
 object debug {
   var active = false
