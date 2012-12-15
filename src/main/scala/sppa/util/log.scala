@@ -17,7 +17,7 @@ object log {
     val runtime = System.currentTimeMillis - timers(name)
     debug("DONE: " + name + " in " + runtime / 1000 + "." + runtime % 1000 + "s")
     timers.remove(name)
-    entries += (name+"-time" -> runtime.toString())
+    entries += (name+"-time" -> ((runtime/1000).toString()+" s"))
   }
 
   val entries: mutable.Map[String, String] = mutable.ListMap()
