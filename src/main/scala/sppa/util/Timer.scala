@@ -22,3 +22,5 @@ object Timer {
     timer
   }
 }
+
+object Timeout extends Exception("Timeout")
