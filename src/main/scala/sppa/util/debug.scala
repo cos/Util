@@ -1,7 +1,7 @@
 package sppa.util
 
 object debug {
-  var active = false
+  var active = true
   def activate = active = true
 
   private var detailedContexts = false
